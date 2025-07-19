@@ -123,19 +123,13 @@ classDiagram
 
 2. **Start a local server**
    ```bash
-   # Using Python
-   python -m http.server 8000
-   
-   # Using Node.js
-   npx serve .
-   
-   # Using PHP
-   php -S localhost:8000
+   # Using LiveServer [Live server extension to be installed]
+   php -S localhost:5500
    ```
 
 3. **Open in browser**
    ```
-   http://localhost:8000
+   http://localhost:5500
    ```
 
 ### Usage Flow
