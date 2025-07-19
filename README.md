@@ -295,6 +295,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-  <p>Made with ❄️ and ✨</p>
+  <p>Made with ❄️ by [SoubhLance](https://github.com/SoubhLance)</p>
   <p><em>Transform your images into winter wonderlands</em></p>
 </div>
