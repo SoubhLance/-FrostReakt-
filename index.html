@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❄️ FrostReflekt ❄️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <div class="background-image"></div>
+    <div class="image-upload-zone" id="imageUploadZone"></div>
+    <input type="file" id="backgroundImageInput" accept="image/*">
+    
+    <div class="container">
+        <div class="header">
+            <h1>❄️ FrostReflekt ❄️</h1>
+            <p>Freeze the moment. Reflekt the vibe.</p>
+        </div>
+
+        <div class="main-content">
+            <div class="upload-section">
+                <div class="upload-zone" id="uploadZone">
+                    <div class="upload-icon">📸</div>
+                    <div class="upload-text">Drop your image here or click to select</div>
+                    <div class="upload-subtext">Supports JPG, PNG, WEBP</div>
+                </div>
+                <input type="file" id="fileInput" accept="image/*">
+                
+                <div class="controls">
+                    <div class="control-group">
+                        <label class="control-label">❄️ Frost Intensity</label>
+                        <div class="slider-container">
+                            <input type="range" id="blueSlider" min="0" max="100" value="50">
+                            <span class="slider-value" id="blueValue">50</span>
+                        </div>
+                    </div>
+                    
+                    <div class="control-group">
+                        <label class="control-label">💧 Glass Blur</label>
+                        <div class="slider-container">
+                            <input type="range" id="blurSlider" min="0" max="20" value="5">
+                            <span class="slider-value" id="blurValue">5</span>
+                        </div>
+                    </div>
+                    
+                    <div class="control-group">
+                        <label class="control-label">✨ Glass Opacity</label>
+                        <div class="slider-container">
+                            <input type="range" id="opacitySlider" min="10" max="80" value="30">
+                            <span class="slider-value" id="opacityValue">30</span>
+                        </div>
+                    </div>
+                    
+                    <button class="button" id="resetBtn">Reset Effects</button>
+                </div>
+            </div>
+
+            <div class="preview-section">
+                <div class="preview-container" id="previewContainer">
+                    <div class="preview-placeholder">Your frostified image will appear here ❄️</div>
+                </div>
+                <button class="button download-btn" id="downloadBtn" disabled>Download Frozen Image</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
